@@ -9,7 +9,6 @@ export default class GridDisplay extends React.Component {
     }
 
     this.createGameCell = this.createGameCell.bind(this)
-    this.iterate = this.iterate.bind(this)
   }
 
   createGameCell(isAlive) {
