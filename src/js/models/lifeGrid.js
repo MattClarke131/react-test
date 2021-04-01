@@ -1,7 +1,7 @@
 const TURN_ALIVE = [3]
 const STAY_ALIVE = [2,3]
 
-export class LifeGrid {
+export default class LifeGrid {
   constructor(xSize, ySize) {
     this.xSize = xSize
     this.ySize = ySize
